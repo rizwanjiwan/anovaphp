@@ -22,7 +22,7 @@ Be sure your Anova is wifi connected.
 
 To use the demo app, you run demo.php. Here's the usage:
 
-![help page for the demo](https://todo)
+![help page for the demo](https://github.com/rizwanjiwan/anovaphp/raw/main/demo-help.png)
 
 When you run it the first time, you won't have a token yet.
 Enter your username and password. The script will spit out
@@ -31,7 +31,7 @@ run the app again in the future using that (recommended).
 
 Here's an example run:
 
-![example run for the demo](https://todo)
+![example run for the demo](https://github.com/rizwanjiwan/anovaphp/raw/main/demo.png)
 
 If you want to use the library for your own apps the basic usage is:
 
