@@ -21,7 +21,7 @@ class Demo extends CLI
         $options->registerArgument('StartTime','Time you want to start your Anova',true);
         $options->registerArgument('Duration','How long do you want to run it at temperature (minutes)',true);
         $options->registerArgument('Temperature','The temperature (in your configured default)',true);
-        $options->registerArgument('token','Token you previously generated with a email and password',false);
+        $options->registerArgument('token','Token you previously generated with an email and password',false);
         $options->registerArgument('email','Account email if you don\'t have a token',false);
         $options->registerArgument('password','Your account password if you don\'t have a token',false);
 
