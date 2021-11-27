@@ -1,0 +1,10 @@
+POST https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyDQiOP2fTR9zvFcag2kSbcmG9zPh6gZhHw
+Content-Type: application/json
+
+{
+  "email": "{{YOUR_EMAIL}}",
+  "password": "{{YOUR_PASSWORD}}",
+  "returnSecureToken": true
+}
+
+###

@@ -1,0 +1,14 @@
+PUT https://anovaculinary.io/devices/{{DEVICE_ID}}/current-job
+Content-Type: application/json
+authorization: Bearer {{YOUR_BEARER_TOKEN}}
+
+{
+  "cook-time-seconds": 60,
+  "id": "{{RANDOM_22_CHAR_ID}}",
+  "mode": "COOK",
+  "ota-url": "",
+  "target-temperature": 60,
+  "temperature-unit": "F"
+}
+
+###

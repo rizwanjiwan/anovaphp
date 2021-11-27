@@ -1,0 +1,17 @@
+{
+  "require":
+  {
+    "ext-json": "*",
+    "splitbrain/php-cli": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "rizwanjiwan\\anovaphp\\": "src/rizwanjiwan/anovaphp"
+    }
+  },
+  "name": "rizwanjiwan/anovaphp",
+  "description": "PHP Library to work with the anova api",
+  "version": "0.1.0",
+  "type": "package",
+  "license": "GPL-3.0-or-later"
+}

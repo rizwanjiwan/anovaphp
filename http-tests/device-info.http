@@ -1,0 +1,4 @@
+GET https://anovaculinary.io/devices/{{DEVICE_ID}}/states/?limit=1&max-age=10s
+Accept: application/json
+
+###

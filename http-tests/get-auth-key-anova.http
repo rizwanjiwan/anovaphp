@@ -1,0 +1,7 @@
+POST https://anovaculinary.io/authenticate
+Content-Type: application/json
+firebase-token: {{TOKEN_FROM_FIREBASE}}
+
+{}
+
+###
