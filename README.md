@@ -1,10 +1,10 @@
-#Anova PHP Library
+# Anova PHP Library
 
 This is a PHP Library to connect and control your
 <a href="https://anovaculinary.com">Anova Sous Vide</a>. It includes a basic CLI demo app
 which can schedule your anova to start at a given time.
 
-##Background and usage
+## Background and usage
 
 This library is based on the api info in https://github.com/ammarzuberi/pyanova-api.
 
