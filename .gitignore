@@ -1,3 +1,5 @@
 .idea
 vendor
 **/.DS_Store
+mytoken.txt
+sched.php

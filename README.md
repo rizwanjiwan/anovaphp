@@ -12,8 +12,15 @@ To use the library you need to grab it and install the dependencies using compos
 You can run it on pretty much any machine with PHP 8+. 
 
 If you want to use docker, included is a docker image.
-Simply run `./build.sh` and then `./run.sh`. From there
-connect to your container and you can run the demo app.
+Simply run `./build.sh` and then `./run_prod.sh`. From there
+connect to your container and you can run the demo app. 
+
+DEV Note:
+The build script will build both a dev and prod docker image. The
+difference is that the dev image links to the code on the host machine
+and prod image copies the code into the image. This allows devs to make 
+changes to the code on their machine without having to rebuild the image.
+You can then use run_dev.sh to run the dev image.
 
 You'll need your Anova credentials (email address and password)
 and device ID. You can get your device ID by going into the 
