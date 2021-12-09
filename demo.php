@@ -59,7 +59,13 @@ class Demo extends CLI
             echo "\nWaiting till start time (".date('Y-m-d H:i',$start).")...";
             while($start>time()){
                 sleep(60);
-                $info=$client->getInfo();//keep the anova awake
+                try {
+                    $info=$client->getInfo();//keep the anova awake
+                }
+                catch(Exception $e){
+                    sleep(5);//try again
+                    $info=$client->getInfo();
+                }
                 echo ".";
             }
             //go time!
